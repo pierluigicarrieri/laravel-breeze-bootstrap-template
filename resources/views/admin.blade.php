@@ -3,12 +3,12 @@
 @section('content')
 <div class="container">
     <h2 class="fs-4 text-secondary my-4">
-        {{ __('Home') }}
+        {{ __('admin') }}
     </h2>
     <div class="row justify-content-center">
         <div class="col">
             <div class="card">
-                <div class="card-header">{{ __('User Home') }}</div>
+                <div class="card-header">{{ __('admin') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
